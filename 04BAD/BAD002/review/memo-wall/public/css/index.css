@@ -1,0 +1,87 @@
+.container {
+  background-image: url('../assets/wallpaper.jpg');
+  min-height: 95vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-panel {
+  flex: 2;
+  height: fit-content;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memo-area {
+  flex: 5;
+  display: flex;
+  flex-wrap: wrap;
+}
+.memo {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+.logo-text {
+  padding: 5px;
+  background-color: white;
+  margin: 1px;
+}
+.memo-button {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+.memo-div {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+.del-button {
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+.edit-button {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+.notification {
+  font-size: 25px;
+  color: lightyellow;
+  font-family: Londrina Outline;
+  text-shadow: 0 0 10px gold, 0 0 20px firebrick, 0 0 40px pink, 0 0 80px red;
+}
+.form-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-area form {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

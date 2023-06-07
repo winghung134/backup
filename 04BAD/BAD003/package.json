@@ -1,0 +1,28 @@
+{
+  "name": "bad003",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/pg": "^8.6.6",
+    "dotenv": "^16.0.3",
+    "jest": "^29.5.0",
+    "knex": "^2.4.2",
+    "npx": "^10.2.2",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
