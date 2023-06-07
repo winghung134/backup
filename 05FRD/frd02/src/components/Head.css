@@ -1,0 +1,12 @@
+.row {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: baseline;
+}
+
+
+/* .icon {}
+
+.Pagination {} */
