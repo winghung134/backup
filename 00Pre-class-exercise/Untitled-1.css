@@ -1,0 +1,97 @@
+.fl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.fl2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.f {
+    background-color: #ffcc00;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-brand {
+    align-items: center;
+}
+
+.text {
+    margin-left: 50px;
+}
+
+.f #Bigicon {
+    flex: 6;
+}
+
+a .navbar-brand {
+    background-color: white;
+}
+
+.nav-item {
+    background-color: white;
+}
+
+.navbar-brand {
+    background-color: black;
+    color: white;
+}
+
+.text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+body {
+    background-color: #ffcc00;
+}
+
+.n {
+    margin-top: 20px;
+    background-color: #ffcc00;
+}
+
+#homepage1 {
+    border: 15px solid white;
+    margin: 25px 25px 25px 25px;
+}
+
+html {
+    background-color: #ffcc00;
+}
+
+#new1 {
+    background-color: #ffcc00;
+}
+
+.nav-item a:hover {
+    background-color: black;
+    color: white;
+}
+
+.carddisplay {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subtitle1 {
+    border: 3px solid white;
+    background-color: aqua;
+    margin-top: 19px;
+    text-align: center;
+}
+
+.dateA {
+    position: relative;
+    margin-right: 200px;
+    bottom: 90px;
+    background-color: aliceblue;
+}

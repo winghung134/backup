@@ -1,0 +1,11 @@
+body {
+    background-color: aliceblue;
+    color: black;
+    margin: 20px;
+    bottom: 1000;
+}
+
+span1 {
+    size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
